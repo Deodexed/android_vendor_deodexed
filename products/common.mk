@@ -19,7 +19,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     frameworks/base/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml \
-    vendor/modadroid/prebuilt/common/bootanimation.zip:system/media/bootanimation.zip
+    vendor/deodexed/prebuilt/common/bootanimation.zip:system/media/bootanimation.zip
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html \
