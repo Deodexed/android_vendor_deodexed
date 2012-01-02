@@ -19,4 +19,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.gsm.2nd_data_retry_config=max_retries=infinite,default_randomization=2000,0,0,80000,125000,485000,905000 \
     ro.cdma.otaspnumschema=SELC,1,80,99
 
+PRODUCT_COPY_FILES += \
+    vendor/samsung/toro/proprietary/com.vzw.hardware.ehrpd.xml:system/etc/permissions/com.vzw.hardware.ehrpd.xml \
+    vendor/samsung/toro/proprietary/com.vzw.hardware.lte.xml:system/etc/permissions/com.vzw.hardware.lte.xml \
+    vendor/samsung/toro/proprietary/com.vzw.vzwapnlib.xml:system/etc/permissions/com.vzw.vzwapnlib.xml
+
 PRODUCT_PACKAGE_OVERLAYS += vendor/deodexed/overlay/toro
