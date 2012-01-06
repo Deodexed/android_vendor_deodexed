@@ -6,12 +6,7 @@ PRODUCT_BRAND := google
 PRODUCT_DEVICE := toro
 PRODUCT_MODEL := Galaxy Nexus
 PRODUCT_MANUFACTURER := Samsung
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=mysid BUILD_ID=ICL53F BUILD_DISPLAY_ID=IML74K BUILD_FINGERPRINT="google/mysid/toro:4.0.2/ICL53F/235179:user/release-keys" PRIVATE_BUILD_DESC="mysid-user 4.0.2 ICL53F 235179 release-keys"
-
-# set up version info
-include vendor/deodexed/products/common_versions.mk
-build_name := ModAGnex
-build_version := $(build_version_major).$(build_version_minor).$(build_version_revision)
+PRODUCT_BUILD_PROP_OVERRIDES := PRODUCT_NAME=mysid BUILD_ID=ICL53F BUILD_FINGERPRINT=google/mysid/toro:4.0.2/ICL53F/235179:user/release-keys PRIVATE_BUILD_DESC="mysid-user 4.0.2 ICL53F 235179 release-keys" BUILD_NUMBER=235179
 
 # Inherit common build.prop overrides
 -include vendor/deodexed/products/common_versions.mk
