@@ -30,5 +30,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.setupwizard.enterprise_mode=1 \
     ro.config.ringtone=Girtab.ogg \
     ro.config.notification_sound=Proxima.ogg \
-    ro.config.alarm_alert=Cesium.ogg \
-    ro.modversion=ModAGnex-V-4.0.3-1 
+    ro.config.alarm_alert=Cesium.ogg 
+    
