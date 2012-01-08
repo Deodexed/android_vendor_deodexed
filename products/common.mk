@@ -30,5 +30,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.setupwizard.enterprise_mode=1 \
     ro.config.ringtone=Girtab.ogg \
     ro.config.notification_sound=Proxima.ogg \
-    ro.config.alarm_alert=Cesium.ogg 
+    ro.config.alarm_alert=Cesium.ogg \
+    ro.kernel.android.checkjni=0 \
+    windowsmgr.max_events_per_sec=240
     
