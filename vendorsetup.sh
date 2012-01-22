@@ -1,2 +1,8 @@
-add_lunch_combo deodexed_toro-userdebug
-add_lunch_combo deodexed_wingray-userdebug
+add_lunch_combo deodexed_crespo-user
+add_lunch_combo deodexed_crespo4g-user
+add_lunch_combo deodexed_emulator-eng
+add_lunch_combo deodexed_maguro-user
+add_lunch_combo deodexed_stingray-user
+add_lunch_combo deodexed_toro-user
+add_lunch_combo deodexed_wingray-user
+
